@@ -19,7 +19,7 @@ import groovy.xml.MarkupBuilder;
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'nl.ansonline.app',
+    applicationId: 'nl.ansonline',
     hostName: 'ans-online.nl', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'ANS', // The name shown on the Android Launcher.
@@ -47,7 +47,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 4
-        versionName "0.0.1"
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // The name for the application on the Android Launcher
